@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
-class WrapperViewList extends ListView {
+class WrapperViewList extends BlockingListView {
 
 	interface LifeCycleListener {
 		void onDispatchDrawOccurred(Canvas canvas);
